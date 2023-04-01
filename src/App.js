@@ -29,7 +29,7 @@ function App() {
             <header>
                 <div className="navbar">
                     <div className="logo">
-                        <a href="main.css"><img src="./images/jk0icon.png" height="45px" /></a>
+                        <a href="main.css"><img src="./g47studio/images/jk0icon.png" height="45px" /></a>
                         <p>JKTHECREATOR</p>
                     </div>
                     <nav>
@@ -66,11 +66,11 @@ function App() {
                         <h4>(+91) 7746845046</h4>
                     </li>
                     <div className="slogo">
-                        <a href="https://discord.com/invite/QTFTbAbG"><img src="./images/discord-2-24.png" /></a>
-                        <a href="https://github.com/kumarjatinsheoran"><img src="./images/github.png" height='24px' /></a>
-                        <img src="./images/instagram.png" />
-                        <a href="https://www.linkedin.com/in/jatin-kumar-678a91258"><img src="./images/linkedin-3-24.png" /></a>
-                        <a href="https://www.youtube.com/@jkthecreator/"><img src="./images/yt.png" height='24px' /></a>
+                        <a href="https://discord.com/invite/QTFTbAbG"><img src="./g47studio/images/discord-2-24.png" /></a>
+                        <a href="https://github.com/kumarjatinsheoran"><img src="./g47studio/images/github.png" height='24px' /></a>
+                        <img src="./g47studio/images/instagram.png" />
+                        <a href="https://www.linkedin.com/in/jatin-kumar-678a91258"><img src="./g47studio/images/linkedin-3-24.png" /></a>
+                        <a href="https://www.youtube.com/@jkthecreator/"><img src="./g47studio/images/yt.png" height='24px' /></a>
                     </div>
                 </div>
             </footer>

@@ -940,6 +940,7 @@ hr {
     padding: 10px 50px;
     font-family: verela;
     aspect-ratio: 4/1;
+    width: fit-content;
 }
 
 .card img {
@@ -949,6 +950,7 @@ hr {
     width: 65%;
     font-family: verela;
     overflow: hidden;
+    height: 12rem;
 }
 .cardTitle p:nth-child(1){
     color: #161616;

@@ -10,7 +10,7 @@ export default function Support() {
             </div>
             <hr />
             <div className='sback'>
-                <img src="./images/support.jpg" alt="" />
+                <img src="./g47studio/images/support.jpg" alt="" />
             </div>
             <div className='spera'>
                 <p> Welcome to our support page for Subscribers! We're dedicated to helping you make the most out of our platform and ensuring that you have a seamless and enjoyable user experience.</p>

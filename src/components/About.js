@@ -8,7 +8,7 @@ export default function About() {
                     <h1>About Us</h1>
                 </div>
                 <div className='aback'>
-                    <img src="./images/About.jpg" alt="" />
+                    <img src="./g47studio/images/About.jpg" alt="" />
                 </div>
                 <div className='spera'>
                     <p></p>

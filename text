@@ -1,0 +1,6 @@
+"predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+
+
+
+    "homepage": "https://kjatins.github.io/g47studio"
