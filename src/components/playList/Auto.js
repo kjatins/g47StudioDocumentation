@@ -22,14 +22,14 @@ export default function Auto() {
             <h1>Auto</h1>
             <p>Get ready to hit the road with our awesome auto playlist! We've got a sweet collection of videos that'll take you on a ride through the world of cars. From jaw-dropping reviews and test drives to crazy DIY hacks and maintenance tips, we've got everything you need to become a true gearhead. And that's not all - we'll bring you the hottest highlights from the biggest car shows and expos, and give you the lowdown on all the races and events that matter. Plus, our in-depth interviews with industry experts and car enthusiasts will take you behind the scenes and give you an exclusive look at the latest trends and innovations in the industry. So buckle up, grab your popcorn, and get ready for an adrenaline-fueled journey into the world of cars!</p>
             </div>
-            {allvideos.map((item) => {
+            {allvideos.map((items) => {
                 return (
-                    <a href={item.Videolink}>
+                    <a href={items.Videolink}>
                         <div className='card'>
-                            <img src={item.snippet.thumbnails.medium.url} width="200px" alt="" />
+                            <img src={items.snippet.thumbnails.medium.url} width="200px" alt="" />
                             <div className="cardTitle">
-                            <p>{item.snippet.title}</p>
-                            <p>{item.snippet.description}</p>
+                            <p>{items.snippet.title}</p>
+                            <p>{items.snippet.description}</p>
                             </div>
                         </div>
                     </a>
