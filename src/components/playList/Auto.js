@@ -26,7 +26,7 @@ export default function Auto() {
                 return (
                     <a href={item.Videolink}>
                         <div className='card'>
-                            <img src={item.snippet.thumbnails.high.url} width="200px" alt="" />
+                            <img src={item.snippet.thumbnails.medium.url} width="200px" alt="" />
                             <div className="cardTitle">
                             <p>{item.snippet.title}</p>
                             <p>{item.snippet.description}</p>
