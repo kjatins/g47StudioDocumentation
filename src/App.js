@@ -33,7 +33,7 @@ function App() {
                         <p>JKTHECREATOR</p>
                     </div>
                     <nav>
-                        <li><Link to="/">HOME</Link></li>
+                        <li><Link to="/g47studio">HOME</Link></li>
                         <li><Link to="/About">About</Link></li>
                         <li><Link to="/Support">Support</Link></li>
                         <li><Link to="" className=''><button className="button0" onClick={showLog} role="button">login</button></Link></li>
@@ -42,7 +42,7 @@ function App() {
                 </div>
             </header>
                 <Routes>
-                    <Route exact path="/" element={<Home/>}/>
+                    <Route exact path="/g47studio" element={<Home/>}/>
                     <Route exact path="/About" element={<About/>}/>
                     <Route exact path="/Support" element={<Support/>} />
                     <Route exact path="/playList/Tech" element={<Tech/>}/>
