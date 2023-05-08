@@ -22,15 +22,15 @@ export default function Tech() {
             <h1>Tech</h1>
             <p>Welcome to our tech playlist! We've curated a collection of videos that highlight the latest trends and innovations in the tech world, so you can stay up-to-date on all things technology. From product releases to tutorials, interviews with industry experts, and deep dives into cutting-edge technologies, this playlist has it all. Whether you're a tech enthusiast, a professional in the industry, or just someone who wants to stay informed about the latest developments, this playlist is for you. So sit back, relax, and let's dive into the exciting world of tech together.</p>
             </div>
-            {allvideos.map((item) => {
+            {allvideos.map((items) => {
                 return (
 
                     <a href={item.Videolink}>
                         <div className='card'>
-                            <img src={item.snippet.thumbnails.high.url} width="200px" alt="" />
+                            <img src={items.snippet.thumbnails.high.url} width="200px" alt="" />
                             <div className="cardTitle">
-                            <p>{item.snippet.title}</p>
-                            <p>{item.snippet.description}</p>
+                            <p>{items.snippet.title}</p>
+                            <p>{items.snippet.description}</p>
                             </div>
                         </div>
                     </a>
